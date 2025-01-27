@@ -1,5 +1,3 @@
 __pycache__
 .vscode/
-.terraform
-.terraform.lock.hcl
 .env
