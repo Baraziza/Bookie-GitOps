@@ -8,6 +8,7 @@ resources:
   - bookie/bookie-service.yaml
   - ingress/ingress.yaml
   - ingress/storage-class.yaml
+  - cert-manager/cluster-issuer.yaml
 
 commonLabels:
   app.kubernetes.io/managed-by: argocd 
