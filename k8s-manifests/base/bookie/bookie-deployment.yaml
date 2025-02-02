@@ -18,7 +18,7 @@ spec:
           command: ['sh', '-c', 'until mysql -h mysql -u bookie_user -pbookie_pass bookie_db -e "SELECT 1"; do echo waiting for mysql; sleep 2; done;']
       containers:
         - name: bookie
-          image: baraziza/bookie:db41387aa0231b3945dfa4bd3b00b8f43fd84c80
+          image: baraziza/bookie:72f32ec3f9803f0c2ae6a1da7fe0c3713a4ade3a
           resources:
             limits:
               cpu: "500m"
